@@ -15,7 +15,7 @@ import { ListPage } from '../pages/list/list';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ListPage; //definição da página principal
+  rootPage: any = HomePage; //definição da página principal
 
   pages: Array<{title: string, component: any}>;
 
